@@ -1,0 +1,9 @@
+WEB-APP basada en TheMovieDB
+
+Práctica de manejo de apis con la api de themoviedb.org
+Dependencias: 
+	- ant.design para los componentes visuales como cards, botones, etc
+	- node-sass
+	- react-router-dom para el manejo de rutas
+
+API Key: 2af4101b9cccb25bbefb90afc3225cd6
