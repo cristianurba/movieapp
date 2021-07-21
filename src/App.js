@@ -10,7 +10,7 @@ import NewMovies from "./pages/new-movies";
 import Popular from "./pages/popular";
 import Movie from "./pages/movie";
 import Search from "./pages/search";
-import Error404 from "./pages/error404";
+import Error404 from "./pages/error404/error404";
 
 export default function App() {
 
@@ -34,7 +34,6 @@ export default function App() {
               <NewMovies />
             </Route>
 
-            
             <Route path="/popular-movies" exact={true}>
               <Popular />
             </Route>
