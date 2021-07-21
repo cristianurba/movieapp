@@ -4,6 +4,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'antd/dist/antd.css';
 import './index.css';
+import "rc-pagination/assets/index.css"
 
 ReactDOM.render(
   <React.StrictMode>

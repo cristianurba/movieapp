@@ -2,6 +2,7 @@ import React from "react";
 import {Layout} from "antd";
 import{BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import MenuTop from "./components/MenuTop";
+import Footer from "./components/footer";
 
 // Pages
 import Home from "./pages/home";
@@ -55,7 +56,7 @@ export default function App() {
             </Route>
           </Switch>
         </Content>
-
+        <Footer/>
       </Router>
     </Layout>
   );

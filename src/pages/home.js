@@ -5,7 +5,6 @@ import {URL_API, API} from "../utils/constants";
 
 import SliderMovies from "../components/SliderMovies";
 import MovieList from "../components/MovieList";
-import Footer from "../components/footer";
 
 export default function Home(){
 
@@ -24,7 +23,6 @@ export default function Home(){
                     <MovieList title="Películas más votadas" movies={topRatedMovies}/>
                 </Col>
             </Row>
-            <Footer />
         </>
     );
 }
