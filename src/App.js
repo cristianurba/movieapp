@@ -26,23 +26,23 @@ export default function App() {
         <Content>
           <Switch>
 
-            <Route path="/" exact={true}>
+            <Route path="/movieapp/" exact={true}>
               <Home />
             </Route>
 
-            <Route path="/new-movies" exact={true}>
+            <Route path="/movieapp/new-movies" exact={true}>
               <NewMovies />
             </Route>
 
-            <Route path="/popular-movies" exact={true}>
+            <Route path="/movieapp/popular-movies" exact={true}>
               <Popular />
             </Route>
 
-            <Route path="/search" exact={true}>
+            <Route path="/movieapp/search" exact={true}>
               <Search />
             </Route>
 
-            <Route path="/error404" exact={true}>
+            <Route path="/movieapp/error404" exact={true}>
               <Error404 />
             </Route>
 

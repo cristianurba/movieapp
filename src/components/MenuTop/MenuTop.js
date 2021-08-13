@@ -17,19 +17,19 @@ export default function MenuTop(){
                 defaultSelectedKeys={["1"]}
             >
                 <Menu.Item key="1">
-                    <Link to="/">Home</Link>
+                    <Link to="/movieapp">Home</Link>
                 </Menu.Item>
 
                 <Menu.Item key="2">
-                    <Link to="/new-movies">Últimos lanzamientos</Link>
+                    <Link to="/movieapp/new-movies">Últimos lanzamientos</Link>
                 </Menu.Item>
 
                 <Menu.Item key="3">
-                    <Link to="/popular-movies">Populares</Link>
+                    <Link to="/movieapp/popular-movies">Populares</Link>
                 </Menu.Item>
 
                 <Menu.Item key="4">
-                    <Link to="/search">Buscar</Link>
+                    <Link to="/movieapp/search">Buscar</Link>
                 </Menu.Item>
             </Menu>
         </div>

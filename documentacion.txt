@@ -2,7 +2,7 @@ WEB-APP basada en TheMovieDB
 
 Práctica de manejo de apis con la api de themoviedb.org
 Dependencias: 
-	- ant.design para los componentes visuales como cards, botones, etc
+	- ant.design para los componentes visuales como cards, botones, iconos, etc
 	- node-sass
 	- "react-router-dom" para el manejo de rutas
 	-"query-string" para las búsquedas

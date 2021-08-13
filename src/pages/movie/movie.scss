@@ -1,0 +1,113 @@
+.movie{
+    height: calc(100vh - 64px); // 64px es el tamaño de nuestro menú
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .ant-row{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        background-color: rgba($color: #000000, $alpha: 0.7);
+    }
+
+    &__poster{
+        height: 60vh;
+        width: 30vw;
+        margin: 0 50px 0 50px;
+
+        div{
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+    }
+
+    &__info{
+        height: 70%;
+        color: white;
+        //margin-bottom: 30px;
+
+        &-header{
+            align-items: center;
+            justify-content: space-between;
+
+            h1{
+                color: white;
+                margin: 0;
+                font-size: 48px;
+
+                span{
+                    font-size: 20px;
+                    margin-left: 10px;
+                    opacity: 0.6;
+                }
+            }
+
+            button{
+                height: 100%;
+                background-color: transparent;
+                color: white;
+                border: 0;
+                font-size: 25px;
+
+                &:hover, &:focus, &:active{
+                    background-color: transparent;
+                    color: #1890FF;
+                }
+            }
+        }
+
+        &-content{
+            margin-top: 50px;
+            //margin-bottom: 500px !important;
+
+            h3{
+                color: white;
+                font-weight: bold;
+                font-size: 24px;
+            }
+
+            h4{
+                color: white;
+                font-weight: bold;
+                font-size: 18px;
+            }
+
+            &-extended{
+                display: flex;
+                
+                >div{
+                width: 100%;
+                margin-right: 100px;
+                }
+            }
+        }
+    }
+
+    
+}
+
+@media (max-width: 400px) {
+    .movie{
+        height: auto; // 64px es el tamaño de nuestro menú
+        width: 100%;
+        &__poster{
+            width: 50%;
+        }
+        &__info{
+            
+        }
+    }
+
+    .ant-row{
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .ant-col-10{
+        max-width: 90% !important;
+    }
+    
+}
